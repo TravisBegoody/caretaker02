@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4085239798266770117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4085239798266770116}
+  - component: {fileID: 4085239798266770119}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4085239798266770116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4085239798266770117}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4085239798266770119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4085239798266770117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a439e4bd138aba4fb8d5b17d3bfec3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+  Sounds:
+  - name: Ambience 1
+    clip: {fileID: 8300000, guid: 3bd870d9aef0f41dda092f6b7c5ead81, type: 3}
+    group: {fileID: -2014245754789525589, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.286
+    pitch: 1
+    spatialblend: 0.7
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: Ambience 2
+    clip: {fileID: 8300000, guid: 4436c8d923b6e4ddea48b58c99e782ca, type: 3}
+    group: {fileID: -2014245754789525589, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.219
+    pitch: 1
+    spatialblend: 0.7
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: Ambience 3
+    clip: {fileID: 8300000, guid: 411e72d9c3f2c4e3ea550f8d41597fda, type: 3}
+    group: {fileID: -2014245754789525589, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.241
+    pitch: 1
+    spatialblend: 0.7
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: Ambience 4
+    clip: {fileID: 8300000, guid: d6d17cbfbe9ad4b4aabd28f1486a5ad4, type: 3}
+    group: {fileID: -2014245754789525589, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.219
+    pitch: 1
+    spatialblend: 0.7
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: Ambience 5
+    clip: {fileID: 8300000, guid: 066bc4b060b5c4a23884ca5bc3a418ba, type: 3}
+    group: {fileID: -2014245754789525589, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.202
+    pitch: 1
+    spatialblend: 0.7
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: Intro
+    clip: {fileID: 8300000, guid: 9217aa61e0e484582aebab8aeac84ebc, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 1
+    pitch: 1
+    spatialblend: 0
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: Intro2
+    clip: {fileID: 8300000, guid: 3da44adb240a344c095693b8b376b6ce, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.6
+    pitch: 0.8
+    spatialblend: 0
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: Intro3
+    clip: {fileID: 8300000, guid: 066bc4b060b5c4a23884ca5bc3a418ba, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.3
+    pitch: 0.35
+    spatialblend: 0
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: Walking
+    clip: {fileID: 8300000, guid: cca79881311ea4cc8ab781158c1982d2, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.3
+    pitch: 0.2
+    spatialblend: 0
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 1
+  - name: Running
+    clip: {fileID: 8300000, guid: 0781c81d2a8af43c484f05e760473544, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.343
+    pitch: 0.4
+    spatialblend: 0
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 1
+  - name: Interact
+    clip: {fileID: 8300000, guid: 11c68d2f48b7a428d94a8c77abdba3cd, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.5
+    pitch: 0.7
+    spatialblend: 0
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: Hurt
+    clip: {fileID: 8300000, guid: 325dfb67dff64440391d61f0abb5bed9, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 1
+    pitch: 0.3
+    spatialblend: 0
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: Death
+    clip: {fileID: 8300000, guid: 98b35c030dcfa46108039d1c4553a613, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 1
+    pitch: 0.8
+    spatialblend: 0
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: Mining
+    clip: {fileID: 8300000, guid: 5f63b07e5de15402fbe05380ce130330, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.8
+    pitch: 0.5
+    spatialblend: 0
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: MainMenu
+    clip: {fileID: 8300000, guid: da1cd5b6763fc4275ab6784cd05eb660, type: 3}
+    group: {fileID: -2014245754789525589, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.8
+    pitch: 0.7
+    spatialblend: 0
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 1
+  - name: LevelStatic
+    clip: {fileID: 8300000, guid: 2c44e3d0fcd644cdc8591e60112eb860, type: 3}
+    group: {fileID: -2014245754789525589, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.05
+    pitch: 0.3
+    spatialblend: 0
+    StopAfter: 1
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 1
+  - name: ButtonClick
+    clip: {fileID: 8300000, guid: 9ff9d050314524ff0be0aebc15ac6fbc, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.3
+    pitch: 1
+    spatialblend: 0
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: DeathMenu
+    clip: {fileID: 8300000, guid: 5c4bf737cd88d4205bf318fa43848ee3, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.3
+    pitch: 1
+    spatialblend: 0
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: LowHealth
+    clip: {fileID: 8300000, guid: 4436c8d923b6e4ddea48b58c99e782ca, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.1
+    pitch: 0.3
+    spatialblend: 0
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: Spotted
+    clip: {fileID: 8300000, guid: ba41c45fd13f2495d98134e2ea486ed8, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.7
+    pitch: 0.3
+    spatialblend: 0.7
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  - name: EnemySound
+    clip: {fileID: 8300000, guid: b7815b797a5f34623bc4def53e44faa8, type: 3}
+    group: {fileID: 8202396876537308650, guid: 796a4a026a265cf49aa0c3662d249986, type: 2}
+    volume: 0.4
+    pitch: 0.3
+    spatialblend: 0.4
+    StopAfter: 0
+    duration: 0
+    source: {fileID: 0}
+    soundObject: {fileID: 0}
+    loop: 0
+  ambienceMultiplier: 0
+  sfxMultiplier: 0
